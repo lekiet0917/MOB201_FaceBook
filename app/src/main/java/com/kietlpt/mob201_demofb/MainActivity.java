@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                         .setBitmap(bmp)
                         .build();
                 // only share image
-                SharePhotoContent content = new SharePhotoContent.Builder()
+                SharePhotoContent content1 = new SharePhotoContent.Builder()
                         .addPhoto(photo)
                         .build();
                 // multishare
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 //                        .addMedium(photo)
 //                        .build();
 
-                shareDialog.show(MainActivity.this,content);
+                shareDialog.show(MainActivity.this,content1);
             }
         });
         //Share link with ShareButton
