@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MOB201_DemoFB</string>
+    <string name="facebook_app_id">864225677419683</string>
+    <string name="fb_login_protocol_scheme">fb864225677419683</string>
+
+</resources>
