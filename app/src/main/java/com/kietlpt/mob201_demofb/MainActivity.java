@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         btnShareDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                //get Drawable
                 Drawable drawable = imgShare.getDrawable();
                 Bitmap bmp = null;
                 if (drawable instanceof BitmapDrawable){
